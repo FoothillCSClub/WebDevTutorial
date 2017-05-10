@@ -1,2 +1,2 @@
 # WebDevTutorial
-HTML, CSS, and JavaScript feature demonstration.
+HTML, CSS, and JavaScript feature demonstration page.
