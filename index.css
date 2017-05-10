@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#nav-bar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+    text-align: center;
+}
+
+#nav-bar > span {
+    position: relative;
+    display: inline-block;
+    margin: 0.1rem;
+    width: 8rem;
+    line-height: 2.8rem;
+    color: white;
+    font-size: 150%;
+    cursor: pointer;
+}
+
+#nav-bar > span::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 8rem;
+    height: 0.2rem;
+    background-color: white;
+    content: '';
+}
+
+#nav-bar > span:hover::before {
+    background-color: red;
+}
+
+#content {
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    right: 0;
+}
+
+#content > div {
+    position: absolute;
+    padding: 0.5rem;
+    top: 1rem;
+    width: calc(100% - 3rem);
+    height: 60rem;
+    background-color: beige;
+    transition: left 1s;
+}
+
+#content.blog #blog {
+    left: 1rem;
+}
+
+#content.blog #bio {
+    left: calc(100% + 1rem);
+}
+
+#content.bio #blog {
+    left: calc(-100% + 1rem);
+}
+
+#content.bio #bio {
+    left: 1rem;
+}
