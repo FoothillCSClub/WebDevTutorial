@@ -9,6 +9,7 @@ Live demo: __https://foothillcsclub.github.io/WebDevTutorial/__
 
 * [ID vs class](https://css-tricks.com/the-difference-between-id-and-class/)
 * [&lt;script&gt; defer](https://www.w3schools.com/tags/att_script_defer.asp)
+* [Lorem Ipsum](http://www.lipsum.com/)
 * [onclick event](https://www.w3schools.com/jsref/event_onclick.asp)
 
 ### CSS
@@ -25,7 +26,7 @@ Live demo: __https://foothillcsclub.github.io/WebDevTutorial/__
 ### JavaScript
 
 * [Variable scope](https://www.w3schools.com/js/js_scope.asp)
-* [Objects vs Arrays](https://www.metaltoad.com/blog/javascript-understanding-objects-vs-arrays-and-when-use-them-part-1)
+* [Objects vs arrays](https://www.metaltoad.com/blog/javascript-understanding-objects-vs-arrays-and-when-use-them-part-1)
 * [Immediately-Invoked Function Expression](http://benalman.com/news/2010/11/immediately-invoked-function-expression/)
 * [createElement()](https://www.w3schools.com/jsref/met_document_createelement.asp)
 * [appendChild()](https://www.w3schools.com/jsref/met_node_appendchild.asp)
