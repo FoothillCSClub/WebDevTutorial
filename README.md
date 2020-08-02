@@ -1,7 +1,7 @@
 # WebDevTutorial
 HTML, CSS, and JavaScript feature demonstration page.
 
-Live demo: __https://foothillcsclub.github.io/WebDevTutorial/__
+Live demo: __https://foothillcs.club/WebDevTutorial/__
 
 ## References
 
